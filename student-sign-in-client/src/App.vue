@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Student Sign In</h1>
     <NewStudentForm v-on:student-added="newStudentAdded"></NewStudentForm>
     <StudentTable v-bind:students="students"
                   v-on:student-arrived-or-left="studentArrivedOrLeft"
